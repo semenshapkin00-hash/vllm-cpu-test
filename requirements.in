@@ -1,0 +1,5 @@
+# Runtime target: CPython 3.12, Linux ARM64, glibc >= 2.34.
+--extra-index-url https://download.pytorch.org/whl/cpu
+vllm @ https://github.com/vllm-project/vllm/releases/download/v0.27.0/vllm-0.27.0%2Bcpu-cp38-abi3-manylinux_2_34_aarch64.whl
+torch==2.13.0+cpu
+setuptools==77.0.3

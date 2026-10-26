@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-26T08:44:02.346504+00:00",
+  "runtime": {
+    "uid": 10001,
+    "vllm": "0.27.0+cpu",
+    "torch": "2.13.0+cpu",
+    "cuda": null,
+    "cpu": true
+  },
+  "missing_token_status": 401,
+  "invalid_token_status": 401,
+  "valid_token_status": 200,
+  "invalid_payload_status": 400,
+  "prompt_answer_and_token_absent_from_logs": true,
+  "streaming_completed": true,
+  "tokenize_missing_token_status": 401,
+  "tokenize_valid_status": 200,
+  "unknown_path_and_query_absent_from_logs": true,
+  "new_audit_records_found": 9,
+  "audit_example": {
+    "time": "2026-10-26T08:43:59.232+00:00",
+    "level": "INFO",
+    "event": "request_end",
+    "request_id": "fa1ce12486914266a5627e80619cc536",
+    "route": "other",
+    "method": "POST",
+    "status": 404,
+    "duration_ms": 0.42
+  }
+}

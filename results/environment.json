@@ -1,0 +1,81 @@
+{
+  "collected_at_utc": "2026-10-26T07:55:04.018825+00:00",
+  "host": {
+    "os": "Darwin",
+    "architecture": "arm64",
+    "cpu": "Apple M2",
+    "ram_bytes": 17179869184
+  },
+  "docker": {
+    "ServerVersion": "29.7.2",
+    "Architecture": "aarch64",
+    "NCPU": 8,
+    "MemTotal": 8319770624
+  },
+  "minikube_container_limits": {
+    "cpu_quota_nanocpus": 6000000000,
+    "memory_limit_bytes": 6291456000
+  },
+  "kubernetes": {
+    "architecture": "arm64",
+    "containerRuntimeVersion": "docker://28.4.0",
+    "kernelVersion": "7.0.12-linuxkit",
+    "kubeProxyVersion": "",
+    "kubeletVersion": "v1.34.0",
+    "operatingSystem": "linux",
+    "osImage": "Ubuntu 22.04.5 LTS",
+    "swap": {
+      "capacity": 1073737728
+    }
+  },
+  "node_allocatable": {
+    "cpu": "8",
+    "ephemeral-storage": "234492896Ki",
+    "hugepages-1Gi": "0",
+    "hugepages-2Mi": "0",
+    "hugepages-32Mi": "0",
+    "hugepages-64Ki": "0",
+    "memory": "8124776Ki",
+    "pods": "110"
+  },
+  "runtime": {
+    "uid": 10001,
+    "python": "3.12.12",
+    "vllm": "0.27.0+cpu",
+    "torch": "2.13.0+cpu",
+    "cuda": null,
+    "cpu": true
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "server_config": {
+    "model": "/models/7ae557604adf67be50417f59c2c2f167def9a775",
+    "served_model_name": "qwen-cpu",
+    "dtype": "float16",
+    "max_model_len": 2048,
+    "max_num_seqs": 4,
+    "max_num_batched_tokens": 1024,
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": false
+  },
+  "cpu_env": {
+    "VLLM_CPU_KVCACHE_SPACE": "1",
+    "VLLM_CPU_OMP_THREADS_BIND": "nobind",
+    "OMP_NUM_THREADS": "4"
+  },
+  "api_resources": {
+    "limits": {
+      "cpu": "4",
+      "memory": "5Gi"
+    },
+    "requests": {
+      "cpu": "4",
+      "memory": "4Gi"
+    }
+  },
+  "images": {
+    "api": "vllm-cpu-api:0.27.0",
+    "download-model": "vllm-model-init:0.27.0"
+  },
+  "benchmark_transport": "localhost HTTP through kubectl port-forward"
+}

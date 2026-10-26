@@ -1,0 +1,9 @@
+test_cold_download_and_warm_cache_skip_hf_and_detect_corruption (test_privacy_and_cache.CacheTests.test_cold_download_and_warm_cache_skip_hf_and_detect_corruption) ... ok
+test_interrupted_download_is_not_accepted_as_ready (test_privacy_and_cache.CacheTests.test_interrupted_download_is_not_accepted_as_ready) ... ok
+test_middleware_logs_metadata_for_stream_and_error_without_reading_body (test_privacy_and_cache.PrivacyTests.test_middleware_logs_metadata_for_stream_and_error_without_reading_body) ... ok
+test_untrusted_message_arguments_and_traceback_are_never_formatted (test_privacy_and_cache.PrivacyTests.test_untrusted_message_arguments_and_traceback_are_never_formatted) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK

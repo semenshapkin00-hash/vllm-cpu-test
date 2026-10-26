@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-26T08:43:23.201209+00:00",
+  "pod_recreated": true,
+  "hf_hub_offline": true,
+  "hf_endpoint": "http://127.0.0.1:9",
+  "init_result": "model_cache_hit",
+  "rollout_ready": true
+}
